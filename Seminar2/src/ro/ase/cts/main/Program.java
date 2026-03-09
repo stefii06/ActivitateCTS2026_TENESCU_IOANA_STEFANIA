@@ -15,10 +15,14 @@ public class Program {
 	public static void main(String[] args) {
 		List<Aplicant> listaAngajati;
 		try {
-			AplicantReader angajatiReader = new AngajatiReader();
-			listaAngajati = angajatiReader.readAplicanti("angajati.txt");
-			for(Aplicant angajat:listaAngajati)
+			AplicantReader angajatiReader = new AngajatiReader("angajati.txt");
+			listaAngajati = angajatiReader.readAplicanti();
+
+			for(Aplicant angajat:listaAngajati) {
 				System.out.println(angajat.toString());
+				angajat.afisareFinantare();
+				angajat.afiseazaStatut();
+			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
