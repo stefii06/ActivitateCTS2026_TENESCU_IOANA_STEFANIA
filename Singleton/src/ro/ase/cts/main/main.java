@@ -1,6 +1,7 @@
 package ro.ase.cts.main;
 
 import ro.ase.cts.clase.Hotel;
+import ro.ase.cts.clase.Opera;
 
 public class main {
     public static void main(String[] args) {
@@ -18,6 +19,13 @@ public class main {
        //mai sunt 0 camere libere
       hotel2.rezervaCamera();
       hotel2.rezervaCamera();
+
+
+        Opera opera1 = Opera.getInstance("Opera Fantastico", 100,50);
+        Opera opera2 = Opera.getInstance("Opera ULTRA Fantastico", 200,80);
+
+        opera1.afiseazaDetalii();
+        opera2.afiseazaDetalii();
 
     }
 }
