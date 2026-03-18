@@ -1,14 +1,14 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.clase.STB;
 
-public class Troleibuz extends MijlocTransport {
+public class Tramvai extends MijlocTransport{
 
-    public Troleibuz(int nrRoti, String nrInmatriculare) {
+    public Tramvai(int nrRoti, String nrInmatriculare) {
         super(nrRoti, nrInmatriculare);
     }
 
     @Override
     public void afisareDescriere() {
-        StringBuilder sb = new StringBuilder("Troleibuzul are:");
+        StringBuilder sb = new StringBuilder("Tramvaiul are:");
         sb.append(" Numar roti: ").append(this.nrRoti);
         sb.append(", Numar Inmatriculare: ").append(this.nrInmatriculare);
         System.out.println(sb.toString());

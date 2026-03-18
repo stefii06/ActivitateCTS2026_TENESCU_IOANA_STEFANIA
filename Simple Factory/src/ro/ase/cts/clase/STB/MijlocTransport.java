@@ -1,4 +1,4 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.clase.STB;
 
 public abstract class MijlocTransport {
     protected int nrRoti;

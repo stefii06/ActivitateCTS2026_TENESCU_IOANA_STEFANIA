@@ -1,9 +1,9 @@
-package ro.ase.cts.factory;
+package ro.ase.cts.factory.STB;
 
-import ro.ase.cts.clase.Autobuz;
-import ro.ase.cts.clase.MijlocTransport;
-import ro.ase.cts.clase.Tramvai;
-import ro.ase.cts.clase.Troleibuz;
+import ro.ase.cts.clase.STB.Autobuz;
+import ro.ase.cts.clase.STB.MijlocTransport;
+import ro.ase.cts.clase.STB.Tramvai;
+import ro.ase.cts.clase.STB.Troleibuz;
 
 public class Fabrica {
     public MijlocTransport getMijlocTransport(TipTransport tipo, int numarRoti, String numarInmatriculare) {

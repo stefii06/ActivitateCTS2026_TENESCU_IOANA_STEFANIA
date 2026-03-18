@@ -1,4 +1,4 @@
-package ro.ase.cts.factory;
+package ro.ase.cts.factory.STB;
 
 public enum TipTransport {
     AUTOBUZ,
