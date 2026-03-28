@@ -1,4 +1,4 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.clase.Restaurant;
 
 public class Rezervare implements RezervareAbstracta {
 
@@ -62,6 +62,9 @@ public class Rezervare implements RezervareAbstracta {
         sb.append('}');
         return sb.toString();
     }
+
+
+
 
     public void setZiuaReservarii(int ziuaReservarii) {
         if(ziuaReservarii<30){
