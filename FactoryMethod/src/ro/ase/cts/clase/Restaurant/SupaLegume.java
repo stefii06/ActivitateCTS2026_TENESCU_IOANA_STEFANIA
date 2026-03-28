@@ -1,4 +1,4 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.clase.Restaurant;
 
 public class SupaLegume extends Supa {
     public SupaLegume(float pret, float gramaj) {

@@ -1,11 +1,10 @@
-package ro.ase.cts.fabrici;
+package ro.ase.cts.fabrici.Restaurant;
 
-import ro.ase.cts.clase.FelDeMnacare;
-import ro.ase.cts.clase.Supa;
-import ro.ase.cts.clase.SupaCiuperci;
-import ro.ase.cts.clase.SupaLegume;
-import ro.ase.cts.enums.TipMancare;
-import ro.ase.cts.enums.TipSupa;
+import ro.ase.cts.clase.Restaurant.FelDeMnacare;
+import ro.ase.cts.clase.Restaurant.SupaCiuperci;
+import ro.ase.cts.clase.Restaurant.SupaLegume;
+import ro.ase.cts.enums.Restaurant.TipMancare;
+import ro.ase.cts.enums.Restaurant.TipSupa;
 
 public class FabricaSupa implements FabricaAbstracta{
     @Override

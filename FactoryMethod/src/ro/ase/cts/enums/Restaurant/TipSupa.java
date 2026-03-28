@@ -1,6 +1,4 @@
-package ro.ase.cts.enums;
-
-import java.io.Serializable;
+package ro.ase.cts.enums.Restaurant;
 
 public enum TipSupa implements TipMancare{
     SupaLegume,

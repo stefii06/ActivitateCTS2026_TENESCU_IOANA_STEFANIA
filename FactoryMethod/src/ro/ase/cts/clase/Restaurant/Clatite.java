@@ -1,4 +1,4 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.clase.Restaurant;
 
 public class Clatite extends Desert{
     public Clatite(float pret, float gramaj, int calorii) {

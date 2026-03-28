@@ -1,9 +1,10 @@
-package ro.ase.cts.fabrici;
+package ro.ase.cts.fabrici.Restaurant;
 
-import ro.ase.cts.clase.*;
-import ro.ase.cts.enums.TipDesert;
-import ro.ase.cts.enums.TipMancare;
-import ro.ase.cts.enums.TipSupa;
+import ro.ase.cts.clase.Restaurant.Clatite;
+import ro.ase.cts.clase.Restaurant.FelDeMnacare;
+import ro.ase.cts.clase.Restaurant.Papanasi;
+import ro.ase.cts.enums.Restaurant.TipDesert;
+import ro.ase.cts.enums.Restaurant.TipMancare;
 
 public class FabricaDesert implements FabricaAbstracta {
 

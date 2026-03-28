@@ -1,4 +1,4 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.clase.Restaurant;
 
 public class Papanasi extends Desert {
 
